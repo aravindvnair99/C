@@ -79,15 +79,6 @@ void main()
 	}
 	
 	int m[r1][c2];
-	for(i=0;i<r1;i++)
-		{
-			for(j=0;j<c2;j++)
-			{
-				
-					m[i][j]=0;
-
-			}
-		}
 	int k;
 	if(c1==r2)
 	{
@@ -97,6 +88,7 @@ void main()
 			{
 				for(k=0;k<c1;k++)
 				{
+				    m[i][j]=0;
 					m[i][j]=m[i][j]+(a[i][k]*b[k][j]);
 				}
 			}
@@ -137,7 +129,7 @@ void main()
 	}
 	else
 	{
-		printf("The transpose of a is not possible \n");
+		printf("The transpose of A is not possible \n");
 	}
 	int bt[r2][c2];
 	if(r2==c2)
@@ -161,7 +153,7 @@ void main()
 	}
 	else
 	{
-		printf("The transpose of a is not possible \n");
+		printf("The transpose of B is not possible \n");
 	}
 				
 	

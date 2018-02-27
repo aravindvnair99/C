@@ -1,6 +1,6 @@
-# :scroll: C :heavy_check_mark:
+# :heavy_exclamation_mark: C testing :warning:
 
-A bunch of stable and tested C programs. :white_check_mark:
+A bunch of C programs that are being tested. :x:
 
 # :octocat: Team
 

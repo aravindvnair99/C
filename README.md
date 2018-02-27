@@ -1,5 +1,5 @@
 # C
-A bunch of C programs... xP
+Collection of beginner friendly C programs.
 
 # :octocat: How to contribute?
 

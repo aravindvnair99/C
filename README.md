@@ -6,7 +6,7 @@ Collection of beginner friendly C programs.
 
 * [Source Codes Stable](https://github.com/aravindvnair99/C/tree/master/Source%20Codes%20Stable) contains codes that have been tested and are guaranteed to run. For any issues please report to us in the format mentioned below.
 
-* [Source Codes Stable](https://github.com/aravindvnair99/C/tree/master/Source%20Codes%20Testing) contains new codes that are being tested and are scheduled to be pushed to stable channel soon. For any issues please report to us in the format mentioned below. Feel free to also contribute in the format mentioned below.
+* [Source Codes Testing](https://github.com/aravindvnair99/C/tree/master/Source%20Codes%20Testing) contains new codes that are being tested and are scheduled to be pushed to stable channel soon. For any issues please report to us in the format mentioned below. Feel free to also contribute. Details mentioned below.
 
 # :octocat: How to contribute?
 

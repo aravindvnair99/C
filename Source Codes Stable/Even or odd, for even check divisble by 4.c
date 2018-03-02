@@ -9,17 +9,15 @@ void main()
 		printf("Neither even nor odd.\n");
 	else
 		{
-			
 			if(x%2 == 0)
 				{
 					printf("Even number.\n");
 					if(x%4 == 0)
 						printf("Divisible by 4.\n");
 					else	
-						printf("Not divisible by 4.\n");
+						printf("Not exactly divisible by 4.\n");
 				}
 			else
-				printf("Odd number.\n");
+				printf("Odd number and not exactly divisible by 4.\n");
 		}
-
 }

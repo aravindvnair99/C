@@ -88,7 +88,7 @@ void main()
 			{
 				for(k=0;k<c1;k++)
 				{
-				    m[i][j]=0;
+					m[i][j]=0;
 					m[i][j]=m[i][j]+(a[i][k]*b[k][j]);
 				}
 			}

@@ -1,3 +1,5 @@
+/* Write a program to print the odd numbers and even numbers of an array seperately using pointers */
+
 #include<stdio.h>
 void main()
 {
@@ -22,7 +24,7 @@ void main()
 		}
 		if(*(pa+i)%2!=0)
 		{
-			odd[j]=*(pa+i);
+			odd[k]=*(pa+i);
 			k++;
 			g=g+1;
 		}

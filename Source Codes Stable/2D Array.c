@@ -1,3 +1,5 @@
+// To make a 2D array in table format by taking user input and printing.
+
 #include <stdio.h>
 
 void main() {

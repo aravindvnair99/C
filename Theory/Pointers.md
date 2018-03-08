@@ -4,4 +4,5 @@
  Example: int *p;
 * '&' symbol is used to get the address of the variable.
 * '*' symbol is used to get the value of the variable that the pointer is pointing     to.
+* Memory locations are Hexa-decimal
 * If a pointer in C is assigned to NULL, it means it is pointing to nothing.

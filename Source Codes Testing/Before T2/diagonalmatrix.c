@@ -1,7 +1,9 @@
+/* To find if a matrix is diagonal or not */
+
 #include<stdio.h>
 void main()
 {
-	int r,c,k=0,f=0;
+	int r,c,f=1;
 	printf("Enter the number of rows\n");
 	scanf("%d",&r);
 	printf("Enter the number of columns\n");
@@ -31,39 +33,30 @@ void main()
 			{
 				if(i==j)
 				{
-					if(a[i][j]>0||a[i][j]<0)
-					{
-						k=k+1;	
-					}
-				}
-				if(i!=j)
+					if(a[i][j]==0)
+	         		f=0;
+	         	}
+	         	else
 				{
-					if(a[i][j]=0)
-					{
-						f=f+1;
-					}
-					else
-					{
-						break;
-					}
+				   if(a[i][j]!=0)
+					 f=0;
 				}
 			}
+		}
+		if(f==1)
+		{
+			printf("It is a diagonal matrix\n");
+		}
+		else
+		{
+			printf("It is not a diagonal matrix\n");
 		}
 	}
 	else
 	{
 		printf("It is not a square matrix\n");
 	}
-	printf("k=%d",k);
-	printf("f=%d",f);
-	if(k==r && f==r)
-	{
-		printf("It is a diagonal matrix\n");
-	}
-	else
-	{
-		printf("It is not a diagonal matrix\n");
-	}
+	
 }
 		
 	

@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 void main()
 	{
 		int len, i;
@@ -13,7 +12,8 @@ void main()
 			{
 				s2[len-i-1] = s1[i];
 			}
-		s2[i+1] = '\0';
+		s2[i] = '\0';
+		printf("Cmp is %d and s1 is %s and s2 is %s\n", strcmp(s1,s2),s1,s2);
 		if (strcmp(s1,s2) == 0)
 			printf("Palindrome.\n");
 		else

@@ -3,7 +3,7 @@
 void main()
     {
     	int n, *pa, i, max, min;
-    	printf("Enter array size: ");;
+    	printf("Enter array size: ");
     	scanf("%d", &n);
     	int a[n];
     	pa = &a[0];

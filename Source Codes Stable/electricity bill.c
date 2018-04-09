@@ -11,16 +11,15 @@
 
 void main() {
 	float units, cost;
-	printf("Enter the number of units consumed:\n");
+	printf("Enter the number of units consumed: ");
 	scanf("%f", &units);
-	if (units <= 50) {
+	if (units <= 50)
 		cost = units * 0.50;
-	} else if (units > 50 && units <= 150) {
+	else if (units > 50 && units <= 150)
 		cost = ((units - 50) * 0.75) + (50 * 0.50);
-	} else if (units > 150 && units <= 250) {
+	else if (units > 150 && units <= 250)
 		cost = ((units - 150) * 1.2) + (100 * 0.75) + (50 * 0.50);
-	} else {
+	else
 		cost = units * 1.5;
-	}
-	printf("The cost is: %f\n", cost);
+	printf("\nThe cost is: %f\n", cost);
 }

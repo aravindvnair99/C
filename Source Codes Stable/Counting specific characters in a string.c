@@ -23,8 +23,8 @@ void main()
 		else if (line[i]==' ')
 			++spaces;
 	}
-	printf("Vowels: %d",vowels);
-	printf("\nConsonants: %d",consonants);
-	printf("\nDigits: %d",digits);
+	printf("Vowels: %d", vowels);
+	printf("\nConsonants: %d", consonants);
+	printf("\nDigits: %d", digits);
 	printf("\nWhite spaces: %d", spaces);
 }

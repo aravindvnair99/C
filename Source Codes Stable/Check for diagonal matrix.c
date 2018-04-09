@@ -1,4 +1,4 @@
-/* To find if a matrix is diagonal or not */
+// To find if a matrix is diagonal or not
 
 #include <stdio.h>
 	void main() {

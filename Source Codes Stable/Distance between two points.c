@@ -1,14 +1,13 @@
+// Distance between two points
+
 #include <stdio.h>
 #include <math.h>
 
-struct point
-{
-	int x;
-	int y;
+struct point {
+	int x, int y;
 };
 
-void main()
-{
+void main() {
 	struct point p, q;
 	int distance;
 	printf("Enter x coordinate for point P: ");

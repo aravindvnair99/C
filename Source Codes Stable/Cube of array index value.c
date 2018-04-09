@@ -4,7 +4,7 @@
 
 void main() {
 	int sum = 0, n, i, max;
-	printf("Enter the number of array elements:\n");
+	printf("Enter the number of array elements: ");
 	scanf("%d", &n);
 	int a[n];
 	for (i = 0; i < n; i++) {

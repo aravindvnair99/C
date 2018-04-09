@@ -1,4 +1,4 @@
-/* 	Read n employee’s details like name, employee id and Basic salary using structure
+/* 	Read n employees' details like name, employee id and Basic salary using structure
     and then print the entered values. (Use array of structures)
     EMPLOYEE GROSS SALARY CALCULATION:  Extend the employee structure program
     in practice question to  calculate  Gross salary (Basic +HRA+DA) for every
@@ -18,7 +18,6 @@ struct employee {
     float hra;
     float da;
     long int gross;
-
 };
 
 void main()
@@ -54,9 +53,8 @@ void main()
             }
         for(int i=0; i<n; i++)
             {
-                printf("\nEmployee name: ");
-                puts(emp[i].name);
-                printf("Employee ID: %d", emp[i].id);
+                printf("\nEmployee name: %s", emp[i].name);
+                printf("\nEmployee ID: %d", emp[i].id);
                 printf("\nGross: %ld\n", emp[i].gross);
             }
     }

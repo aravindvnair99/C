@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 struct dob {
-int date, month, year;
+	int date, month, year;
 };
 
 struct stud {
-int sem;
-char name[20];
-struct dob birth;
+	int sem;
+	char name[20];
+	struct dob birth;
 };
 
 void main () {

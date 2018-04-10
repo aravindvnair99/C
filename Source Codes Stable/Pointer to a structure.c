@@ -1,21 +1,20 @@
 #include<stdio.h>
 
-struct student
-{
+struct student {
+    int age;
 	char name[50];
 	char branch[15];
 };
 
 int main()
 {
-	int n, i;
-	struct student s[n];
+	struct student s;
 	struct student *ptr;
-	ptr = &s[i];
+	ptr = &s;
 	printf("Enter student's first name: ");
-	scanf("%s", ptr->name);
+	scanf("%[^\n]s", ptr->name);
 	printf("Enter student branch: ");
-	scanf("%s", ptr->branch);
+	scanf(" %s", ptr->branch);
 	printf("Enter student's new branch: ");
 	scanf("%s", ptr->branch);
 	printf("Student's new branch: %s\n", ptr->branch);

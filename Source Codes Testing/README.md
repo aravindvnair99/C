@@ -11,7 +11,7 @@ See the full list of [contributors](https://github.com/aravindvnair99/C/graphs/c
 
 # :heavy_exclamation_mark: Prerequisites aka requirements
 
-Please read [Prerequisite](Prerequisite.md) file for details.
+Please read [Prerequisite](https://github.com/aravindvnair99/C/blob/master/Prerequisite.md) file for details.
 
 # :scroll: Changelog
 

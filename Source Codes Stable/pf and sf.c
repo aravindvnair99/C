@@ -2,11 +2,9 @@
 #define pf printf
 #define sf scanf
 
-
-void main()
-{   int a;
-    pf("enter a number");
-    sf("%d",&a);
-    pf("Hello World, number is %d ",a);
-
+void main() {
+	int a;
+	pf("Enter a number");
+	sf("%d",&a);
+	pf("Number is %d ", a);
 }

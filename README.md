@@ -4,9 +4,9 @@ Collection of beginner friendly C programs.
 
 # :book: How to use the repository?
 
-* [Master branch](https://github.com/aravindvnair99/C/tree/master/Source%20Codes%20Stable) contains codes that have been tested and are guaranteed to run. For any issues please report to us in the format mentioned below.
+* [Master branch](https://github.com/aravindvnair99/C/tree/master/Source%20Codes) contains codes that have been tested and are guaranteed to run. For any issues please report to us in the format mentioned below.
 
-* [Testing branch](https://github.com/aravindvnair99/C/tree/master/Source%20Codes%20Testing) contains new codes that are being tested and are scheduled to be pushed to stable channel soon. For any issues please report to us in the format mentioned below. Feel free to also contribute. Details mentioned below.
+* [Testing branch](https://github.com/aravindvnair99/C/tree/testing/Source%20Codes) contains new codes that are being tested and are scheduled to be pushed to stable channel soon. For any issues please report to us in the format mentioned below. Feel free to also contribute. Details mentioned below.
 
 # :octocat: How to contribute?
 

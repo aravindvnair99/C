@@ -2,6 +2,10 @@
 
 Collection of beginner friendly C programs.
 
+# Build Status
+
+[![Build Status](https://travis-ci.com/aravindvnair99/C.svg?branch=master)](https://travis-ci.com/aravindvnair99/C)
+
 # :book: How to use the repository?
 
 * [Master branch](https://github.com/aravindvnair99/C/tree/master/Source%20Codes) contains codes that have been tested and are guaranteed to run. For any issues please report to us in the format mentioned below.

@@ -1,0 +1,5 @@
+language: c
+
+script:
+	- cd "Source Codes"
+	- gcc *.c -o Output

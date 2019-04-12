@@ -2,4 +2,5 @@ language: c
 
 script:
 	- cd "Source Codes"
+	- ls
 	- gcc *.c -o Output

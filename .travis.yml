@@ -1,7 +1,5 @@
 language: c
 
-before_install:
-  - cd "Source Codes"
-
 script:
-  - gcc *.c -o Output
+	- cd "Source Codes"
+	- gcc *.c -o Output

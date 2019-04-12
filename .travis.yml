@@ -2,7 +2,6 @@ language: c
 
 before_install:
     - cd "Source Codes"
-    - ls
 
 script:
     - gcc *.c -o Output

@@ -4,4 +4,4 @@ before_install:
     - cd "Source Codes"
 
 script:
-    - gcc "Distance between two points.c"
+    - gcc "Distance between two points.c" -lm

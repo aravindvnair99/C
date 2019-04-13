@@ -1,5 +1,10 @@
 language: c
 
+branches:
+  only:
+  - gh-pages
+  - /.*/
+
 before_script:
     - cd "Source Codes"
 

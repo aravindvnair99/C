@@ -4,4 +4,4 @@ before_install:
     - cd "Source Codes"
 
 script:
-    - cc *.c
+    - gcc "2D Array.c"

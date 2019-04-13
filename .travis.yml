@@ -4,4 +4,4 @@ before_install:
     - cd "Source Codes"
 
 script:
-    - gcc "2D Array.c"
+    - gcc "Distance between two points.c"

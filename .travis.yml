@@ -4,5 +4,5 @@ before_script:
     - cd "Source Codes"
 
 script:
-    - ls
-    - gcc *.c -lm -o Output
+    - gcc "2D Array.c" -o Output
+    - gcc "Distance between two points.c" -lm -o Output

@@ -2,8 +2,9 @@ language: c
 
 before_script:
     - cd "Source Codes"
+    - chmod +x travis.sh
 
 script:
-    - ./travis.sh
+    - travis.sh
 #     - gcc "2D Array.c" -o Output
 #     - gcc "Distance between two points.c" -lm -o Output

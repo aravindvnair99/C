@@ -4,4 +4,4 @@ before_install:
     - cd "Source Codes"
 
 script:
-    - cc *.c -o Output
+    - cc *.c

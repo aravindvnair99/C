@@ -5,6 +5,4 @@ before_script:
     - chmod +x travis.sh
 
 script:
-    - travis.sh
-#     - gcc "2D Array.c" -o Output
-#     - gcc "Distance between two points.c" -lm -o Output
+    - ./travis.sh

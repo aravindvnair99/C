@@ -6,7 +6,11 @@ Collection of beginner friendly C programs.
 
 * [Master branch](https://github.com/aravindvnair99/C/tree/master/Source%20Codes) contains codes that have been tested and are guaranteed to run. For any issues please report to us in the format mentioned below.
 
+[![Build Status](https://travis-ci.com/aravindvnair99/C.svg?branch=master)](https://travis-ci.com/aravindvnair99/C)
+
 * [Testing branch](https://github.com/aravindvnair99/C/tree/testing/Source%20Codes) contains new codes that are being tested and are scheduled to be pushed to stable channel soon. For any issues please report to us in the format mentioned below. Feel free to also contribute. Details mentioned below.
+
+[![Build Status](https://travis-ci.com/aravindvnair99/C.svg?branch=testing)](https://travis-ci.com/aravindvnair99/C)
 
 # :octocat: How to contribute?
 

@@ -1,5 +1,8 @@
 language: c
 
+before_script:
+    - cd "Source Codes"
+    - chmod +x travis.sh
+
 script:
-	- cd "Source Codes"
-	- gcc *.c -o Output
+    - ./travis.sh

@@ -6,6 +6,7 @@ before_script:
     - cd "Source Codes"
     - chmod +x travis.sh
     - ./travis.sh
+    - cd temp
 
 script:
-    - make -C "Source Codes/temp"
+    - make

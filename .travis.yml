@@ -7,4 +7,5 @@ before_script:
 script:
     - cp Makefile ./temp/Makefile
     - ./travis.sh
+    - ls ./temp
     - make ./temp

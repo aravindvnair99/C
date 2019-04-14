@@ -1,8 +1,5 @@
-MYDIR = .
+MYDIR = "Source Codes"
 list: $(MYDIR)/*
 		for file in $^ ; do \
-			echo "Hello" $${file} ; \
+			gcc -Wall -o Output $${file} -lm ; \
 		done
-# all:
-# 	cd "Source Codes" && \
-# 		gcc -Wall -o Output *.c -lm

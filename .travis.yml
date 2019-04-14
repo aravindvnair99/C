@@ -1,7 +1,4 @@
 language: c
 
-before_script:
-    - cd "Source Codes"
-
 script:
-    - make
+    - make -C ./"Source Codes"

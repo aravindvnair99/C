@@ -9,4 +9,6 @@ before_script:
 
 script:
     - ls ./temp
-    - make ./temp
+    - pwd
+    - cd temp
+    - make

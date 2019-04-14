@@ -9,7 +9,8 @@
 
 #include <stdio.h>
 
-void main() {
+void main()
+{
 	float units, cost;
 	printf("Enter the number of units consumed: ");
 	scanf("%f", &units);

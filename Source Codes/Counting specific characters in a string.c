@@ -9,18 +9,18 @@ void main()
 	vowels = consonants = digits = spaces = 0;
 	printf("Enter a line of string:\n");
 	gets(line);
-	for (i=0; line[i]!='\0'; ++i)
+	for (i = 0; line[i] != '\0'; ++i)
 	{
-		if (line[i]=='a' || line[i]=='e' || line[i]=='i' ||
-		   line[i]=='o' || line[i]=='u' || line[i]=='A' ||
-		   line[i]=='E' || line[i]=='I' || line[i]=='O' ||
-		   line[i]=='U')
+		if (line[i] == 'a' || line[i] == 'e' || line[i] == 'i' ||
+			line[i] == 'o' || line[i] == 'u' || line[i] == 'A' ||
+			line[i] == 'E' || line[i] == 'I' || line[i] == 'O' ||
+			line[i] == 'U')
 			++vowels;
-		else if((line[i]>='a'&& line[i]<='z') || (line[i]>='A'&& line[i]<='Z'))
+		else if ((line[i] >= 'a' && line[i] <= 'z') || (line[i] >= 'A' && line[i] <= 'Z'))
 			++consonants;
-		else if(line[i]>='0' && line[i]<='9')
+		else if (line[i] >= '0' && line[i] <= '9')
 			++digits;
-		else if (line[i]==' ')
+		else if (line[i] == ' ')
 			++spaces;
 	}
 	printf("Vowels: %d", vowels);

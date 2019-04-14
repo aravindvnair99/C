@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-void main() {
+void main()
+{
 	int a, b, r, ba, h;
 	printf("Enter radius of circle:\n");
 	scanf("%d", &r);

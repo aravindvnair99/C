@@ -1,8 +1,4 @@
 language: c
 
-before_script:
-    - cd "Source Codes"
-    - chmod +x travis.sh
-
 script:
-    - ./travis.sh
+    - make

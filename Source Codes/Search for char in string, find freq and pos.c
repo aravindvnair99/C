@@ -3,12 +3,12 @@
 void main()
 {
 	char s[150], c;
-	int freq = 0;
+	int freq = 0, i;
 	printf("Enter a string: ");
 	gets(s);
 	printf("Enter the search character: ");
 	scanf("%c", &c);
-	for (int i = 0; s[i] != 0; ++i)
+	for (i = 0; s[i] != 0; ++i)
 	{
 		if (c == s[i])
 		{

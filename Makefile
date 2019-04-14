@@ -1,3 +1,3 @@
 all:
 	cd "Source Codes" && \
-		gcc -lm -Wall -o Output *.c
+		gcc -Wall -o Output *.c -lm

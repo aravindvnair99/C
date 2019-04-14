@@ -8,4 +8,4 @@ before_script:
     - ./travis.sh
 
 script:
-    - make
+    - make -C "Source Codes/temp"

@@ -8,7 +8,4 @@ before_script:
     - ./travis.sh
 
 script:
-    - ls ./temp
-    - pwd
-    - cd temp
     - make

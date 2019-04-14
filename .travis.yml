@@ -1,11 +1,12 @@
 language: c
 
 before_script:
+    - mkdir "Source Codes/temp"
+    - cp Makefile "./Source Codes/temp/Makefile"
+    - cd "Source Codes"
     - chmod +x travis.sh
-    - mkdir temp
+    - ./travis.sh
 
 script:
-    - cp Makefile ./temp/Makefile
-    - ./travis.sh
     - ls ./temp
     - make ./temp

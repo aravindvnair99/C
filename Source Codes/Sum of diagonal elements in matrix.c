@@ -1,9 +1,9 @@
-// To find if a matrix is diagonal or not
+/* To find the sum of the diagonal elements of a matrix */
 
 #include <stdio.h>
 void main()
 {
-	int r, c, f = 1;
+	int r, c, sum = 0;
 	printf("Enter the number of rows:\n");
 	scanf("%d", &r);
 	printf("Enter the number of columns:\n");
@@ -35,27 +35,14 @@ void main()
 			{
 				if (i == j)
 				{
-					if (a[i][j] == 0)
-						f = 0;
-				}
-				else
-				{
-					if (a[i][j] != 0)
-						f = 0;
+					sum += a[i][j];
 				}
 			}
 		}
-		if (f == 1)
-		{
-			printf("It is a diagonal matrix.\n");
-		}
-		else
-		{
-			printf("It is not a diagonal matrix.\n");
-		}
+		printf("The sum is %d", sum);
 	}
 	else
 	{
-		printf("It is not a square matrix. Only square matrix have the possibility of being a diagonal matrix.\n");
+		printf("It is not a square matrix");
 	}
 }

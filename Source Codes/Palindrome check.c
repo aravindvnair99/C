@@ -2,7 +2,7 @@
 int main()
 {
     int n,reverse=0;
-    printf("Please enter a number\n");
+    printf("Please enter a number for palindrome check\n");
     scanf("%d",&n);
     int t=n;
     while(t)

@@ -4,11 +4,11 @@
 
 void main()
 {
-	char line[150];
+	char line[30];
 	int i, vowels, consonants, digits, spaces;
 	vowels = consonants = digits = spaces = 0;
-	printf("Enter a line of string:\n");
-	gets(line);
+	printf("Enter a string:\n");
+	scanf("%10s",line);
 	for (i = 0; line[i] != '\0'; ++i)
 	{
 		if (line[i] == 'a' || line[i] == 'e' || line[i] == 'i' ||

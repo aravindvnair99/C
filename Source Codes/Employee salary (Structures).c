@@ -13,7 +13,7 @@
 
 struct employee
 {
-	char name[50];
+	char name[20];
 	int id;
 	long int basic;
 	float hra;
@@ -30,7 +30,7 @@ void main()
 	for (i = 0; i < n; i++)
 	{
 		printf("\nEnter employee name: ");
-		scanf(" %[^\n]s", emp[i].name);
+		scanf(" %10s", emp[i].name);
 		printf("Enter employee ID: ");
 		scanf("%d", &emp[i].id);
 		printf("Enter the salary: ");

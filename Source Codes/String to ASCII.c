@@ -6,14 +6,14 @@
 void main()
 {
 
-	char string[20];
+	char string[10];
 	int n, count = 0;
 
 	printf("Enter the no of characters present in an array \n ");
 	scanf("%d", &n);
 
 	printf(" Enter the string of %d characters \n", n);
-	scanf("%s", string);
+	scanf("%10s", string);
 
 	while (count < n)
 	{

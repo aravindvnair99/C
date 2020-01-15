@@ -37,7 +37,7 @@ void main()
 retrieve:
 	printf("\nEnter number of student to retrieve details: ");
 	scanf("%d", &i);
-	printf("\nName: %s", s[i].name);
+	printf("\nName: %10s", s[i].name);
 	printf("\nSemester: %d", s[i].sem);
 	printf("\nD.O.B.: %d-%d-%d\n", s[i].birth.date, s[i].birth.month, s[i].birth.year);
 	printf("\nRetrieve more details?\n\nPress any key and enter to continue and 'n' or 'q' to exit.\n");

@@ -11,7 +11,7 @@ void main()
 	scanf("%d", &q);
 	ta = 10 * q;
 	printf("Enter the item name \n");
-	scanf("%s", &i1);
+	scanf("%10s", i1);
 	printf("Enter the quantity \n");
 	scanf("%d", &q1);
 	ta1 = 20 * q;

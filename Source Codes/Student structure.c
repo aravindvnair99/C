@@ -24,7 +24,7 @@ void main()
 	for (i = 1; i <= n; i++)
 	{
 		printf("\nEnter name of student %d: ", i);
-		scanf("%s", s[i].name);
+		scanf("%10s", s[i].name);
 		printf("Enter semester of student %d: ", i);
 		scanf("%d", &s[i].sem);
 		printf("Enter day of birth of student %d: ", i);

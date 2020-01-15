@@ -2,10 +2,10 @@
 #include <string.h>
 void main()
 {
-	char s[150], c;
+	char s[30], c;
 	int freq = 0, i;
 	printf("Enter a string: ");
-	gets(s);
+	scanf("%10s",s);
 	printf("Enter the search character: ");
 	scanf("%c", &c);
 	for (i = 0; s[i] != 0; ++i)

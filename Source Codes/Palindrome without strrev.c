@@ -3,9 +3,9 @@
 void main()
 {
 	int len, i;
-	char s1[100];
+	char s1[30];
 	printf("Enter a word: \n");
-	scanf("%s", s1);
+	scanf("%10s", s1);
 	len = strlen(s1);
 	char s2[len];
 	for (i = 0; s1[i] != '\0'; i++)

@@ -4,10 +4,10 @@
 
 int main()
 {
-	char line[150];
+	char line[30];
 	int i, j;
 	printf("Enter a string: ");
-	gets(line);
+	scanf("%10s",line);
 	for (i = 0; line[i] != '\0'; ++i)
 	{
 		while (!((line[i] >= 'a' && line[i] <= 'z') || (line[i] >= 'A' && line[i] <= 'Z') || line[i] == '\0'))
@@ -20,6 +20,6 @@ int main()
 		}
 	}
 	printf("Output String: ");
-	puts(line);
+	printf("%s",line);
 	return 0;
 }

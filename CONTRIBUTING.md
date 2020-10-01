@@ -2,7 +2,7 @@
 All contributions are welcome! Code, documentation, softwares, scripts, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
 ```
 
-# I found some bugs or issues. Where do I report?
+# I found some bugs or issues. Where do I report????
 
 Report [here](https://github.com/aravindvnair99/C/issues/new) in detail answering these questions:
 

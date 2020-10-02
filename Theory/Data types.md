@@ -6,5 +6,5 @@
 |-----------------------|----------------------------------|
 | Basic data types      | int, char, float, double         |
 | Enumeration data type | enum                             |
-| Derived data type     | pointer, array, structure, union |
+| Derived data type     | pointer, array, structure, union, functions|
 | Void data type        | void                             |

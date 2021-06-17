@@ -1,5 +1,5 @@
 #include<stdio.h>
-#inlcude<stdlib.h>
+#include<stdlib.h>
 int maximum(int a[], int f, int l)
 {
 	int mid=0;
@@ -14,6 +14,25 @@ int maximum(int a[], int f, int l)
 		m1=maximum(a,f,mid);
 		m2=maximum(a,mid+1,l);
 		if(m1>m2)
+			return m1;
+		else
+			return m2;
+	}
+}
+int minimum(int a[], int f, int l)
+{
+	int mid=0;
+	int m1, m2;
+	if(f==l)
+	{
+		return a[f];
+	}
+	else
+	{
+		mid=(f+l)/2;
+		m1=minimum(a,f,mid);
+		m2=minimum(a,mid+1,l);
+		if(m1<m2)
 			return m1;
 		else
 			return m2;
@@ -35,5 +54,6 @@ void main()
 		fflush(stdin);
 	}
 	max=maximum(a,0,n-1);
+	min=minimum(a,0,n-1);
 	printf("Maximum=> %d\nMinimum=> %d",max,min);
 }

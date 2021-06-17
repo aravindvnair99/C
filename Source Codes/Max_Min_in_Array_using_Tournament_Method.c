@@ -1,3 +1,6 @@
+/*
+In this program we will be finding out the Maximum and Minimum Elements if an Array
+*/
 #include<stdio.h>
 #include<stdlib.h>
 int maximum(int a[], int f, int l)

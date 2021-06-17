@@ -1,5 +1,6 @@
 /*
-In this program we will be finding out the Maximum and Minimum Elements if an Array
+In this program we will be finding out the Maximum and Minimum Elements if an Array.
+This Algorithm of Finding the maximum and minimum is called Tournament Method
 */
 #include<stdio.h>
 #include<stdlib.h>

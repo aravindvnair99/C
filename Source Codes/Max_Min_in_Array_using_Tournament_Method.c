@@ -1,6 +1,7 @@
 /*
 In this program we will be finding out the Maximum and Minimum Elements if an Array.
-This Algorithm of Finding the maximum and minimum is called Tournament Method
+This Algorithm of Finding the maximum and minimum is called Tournament Method.
+In tournament method we divide the array in two halfs and compare the true maximum of left half and right half, and true minimum of left half and right half.
 */
 #include<stdio.h>
 #include<stdlib.h>

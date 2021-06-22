@@ -69,7 +69,7 @@ void main()
 	{
 		while(1)
 		{
-			scanf("%s",&x);
+			scanf("%100s",&x);
 			fflush(stdin);
 			if(check(x)==1)
 				break;

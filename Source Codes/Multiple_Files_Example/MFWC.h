@@ -1,4 +1,4 @@
-//Header Guard (Prevents duplication of definitions)
+//Header Guard (Prevents duplication of definitions!)
 #ifndef MFWC_H
 #define MFWC_H
 

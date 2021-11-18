@@ -1,4 +1,4 @@
-//Program must be able to run independently so be sure to make correct inclusions!
+//Program must be able to run independently so be sure to make correct inclusions
 #include <stdio.h>
 #include "MFWC.h" 
 

@@ -3,6 +3,7 @@
 #include "MFWC.h"
 
 //Definitions of function(s)
-void greetingFunction(char* userName) {
+void greetingFunction(char *userName)
+{
 	printf("Hello, %s! Do you understand how you can utilize multiple files with C?\n", userName);
 }

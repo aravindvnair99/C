@@ -7,7 +7,8 @@ For the example, I will use MFWC.c and MFWC.h. (MFWC = "Multiple Files with C")
 #include <stdio.h>
 #include "MFWC.h" //Include your header file for reference to definitions!
 
-int main (void) {
+int main(void)
+{
 	char userName[20];
 
 	printf("Hello, please enter your name (Max 15 Characters): \n");
@@ -16,5 +17,4 @@ int main (void) {
 	greetingFunction(userName);
 
 	return 0;
-
 }

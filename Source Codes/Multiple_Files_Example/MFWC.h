@@ -3,6 +3,6 @@
 #define MFWC_H
 
 //Declaration of function(s)
-void greetingFunction(char* userName);
+void greetingFunction(char *userName);
 
 #endif

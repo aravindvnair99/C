@@ -8,15 +8,13 @@ For the example, I will use MFWC.c and MFWC.h. (MFWC = "Multiple Files with C")
 #include "MFWC.h" //Include your header file for reference to definitions!
 
 int main (void) {
-    char userName[20];
+	char userName[20];
 
-    printf("Hello, please enter your name (Max 15 Characters): \n");
-    scanf("%15s", userName);
+	printf("Hello, please enter your name (Max 15 Characters): \n");
+	scanf("%15s", userName);
 
-    greetingFunction(userName);
+	greetingFunction(userName);
 
-    return 0;
-    
+	return 0;
+
 }
-
-

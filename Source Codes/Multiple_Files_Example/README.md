@@ -1,5 +1,19 @@
-Instructions:
+# Multiple files example
 
-1. In order to compile the program type: "gcc -Wall mainMFWC.c MFWC.c" in your directory.
-2. After it compiles, type ./a.exe for the program to output.
-3. Read through code comments to see how the multiple files are utilized for the program.
+The files in this folder show how to modularise C code.
+
+## Get started
+
+Open each file and read through code comments to see how the multiple files are utilized for the program.
+
+- Compile the codebase
+
+    ```console
+    gcc -Wall mainMFWC.c MFWC.c
+    ```
+
+- Run the code
+
+    ```console
+    ./a.out
+    ```

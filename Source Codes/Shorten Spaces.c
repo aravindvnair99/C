@@ -39,7 +39,7 @@ int main(void)
         }
         
     }
-    //Appends null character to the end of the "newText" string.
+    //Appends null character to the end of the "newText" string
     newText[strnlen(newText, 500)] = '\0';
     //Outputs the edited text
     printf("Edited text: %s", newText);

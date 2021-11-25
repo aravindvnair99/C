@@ -15,7 +15,7 @@ int GetTaxable(int AGI, int Deduction);
 
 int CalcTax(int status, int taxableIncome);
 
-int CalcTaxDue(int federalTaxAmount, int withheld);
+void CalcTaxDue(int federalTaxAmount, int withheld);
 //Main
 int main(void) 
 {
@@ -25,7 +25,6 @@ int main(void)
     int userUnempComp;
     int userMarriage;
     int userTaxWith;
-    bool error = false;
 
     //Prompt for wages, TI, and UC
     printf("Please enter wages, taxable interest, and unemployment compensation: \n");
@@ -39,7 +38,6 @@ int main(void)
     if (userMarriage != 0 && userMarriage != 1 && userMarriage != 2) 
     {
         printf("Error: Must input status 0 (dependent), 1 (single), or 2 (married).\n");
-        error = true;
         return 0;
     }
     //Prompt for taxes withheld
@@ -49,7 +47,6 @@ int main(void)
     if (userTaxWith < 0) 
     {
         printf("Error: taxes withheld cannont be less than 0.\n");
-        error = true;
         return 0;
     }
 
@@ -63,8 +60,8 @@ int main(void)
     printf("Deduction: $%d\n", deduction);
     printf("Taxable Income: $%d\n", taxableIncome);
     printf("Federal Tax: $%d\n", federalTax);
+    CalcTaxDue(federalTax, userTaxWith);
     //Tax withheld function call and declaration
-    int taxWithheld = CalcTaxDue(federalTax, userTaxWith);
 
     return 0;
 }
@@ -149,7 +146,7 @@ int CalcTax(int status, int taxableIncome)
     return federalTax;
 }
 
-int CalcTaxDue(int federalTaxAmount, int withheld) 
+void CalcTaxDue(int federalTaxAmount, int withheld) 
 {
     int calculation; 
     int status;
@@ -158,19 +155,18 @@ int CalcTaxDue(int federalTaxAmount, int withheld)
     if (calculation < 0) 
     {
         status = 0;
-        calculation = calculation + (calculation * 2);
+        calculation = calculation - (calculation * 2);
     }
     else 
     {
         status = 1;
     }
-    if (status = 0) 
+    if (status == 0) 
     {
         printf("Tax Refund: $%d\n", calculation);
     }
-    else if (status = 1) 
+    else if (status == 1) 
     {
         printf("Taxes Owed: $%d\n", calculation);
     }
-    return calculation;
 }

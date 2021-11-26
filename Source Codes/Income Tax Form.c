@@ -105,7 +105,7 @@ int GetTaxable(int AGI, int Deduction)
 
 int CalcTax(int status, int taxableIncome) 
 {
-    int federalTax;
+    int federalTax = NULL;
     //Conditionals determine tax bracket dependent on marriage status and taxable income
     //If single/dependent
     if (status == 0 || status == 1) 

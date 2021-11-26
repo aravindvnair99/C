@@ -74,7 +74,7 @@ int CalcAGI(int wages, int interest, int unemployment)
 
 int GetDeduction(int marriageStatus) 
 {
-    int deduction;
+    int deduction = NULL;
     //Determines deduction by marriage status conditional
     if (marriageStatus == 0) 
     {
@@ -93,7 +93,7 @@ int GetDeduction(int marriageStatus)
 
 int GetTaxable(int AGI, int Deduction) 
 {
-    int taxableInc;
+    int taxableInc = NULL;
     //Determines how much income is taxable
     taxableInc = AGI - Deduction;
     if (taxableInc < 0) 

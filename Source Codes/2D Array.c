@@ -2,20 +2,23 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
-	int i, j, r, c;
-	printf("Enter the number of rows:\n");
+	int** array, i, j, r, c;
+	printf("Enter the number of rows:");
 	scanf("%d", &r);
-	printf("Enter the number of columns:\n");
+	printf("\n");
+	printf("Enter the number of columns:");
 	scanf("%d", &c);
-	int a[r][c];
+	printf("\n");
+	array = (int**)malloc(sizeof(int) * r);
 	for (i = 0; i < r; i++)
 	{
+		array[i] = (int*)malloc(sizeof(int) * c);
 		for (j = 0; j < c; j++)
 		{
 			printf("Enter the array element for %d, %d:\n", i, j);
-			scanf("%d", &a[i][j]);
+			scanf("%d", &array[i][j]);
 		}
 	}
 	printf("The array is:\n");
@@ -23,7 +26,7 @@ void main()
 	{
 		for (j = 0; j < c; j++)
 		{
-			printf("%d\t", a[i][j]);
+			printf("%d\t", array[i][j]);
 		}
 		printf("\n");
 	}

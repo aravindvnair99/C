@@ -19,7 +19,6 @@ int main() {
     scanf("%d", &userMarriage);
     printf("Please enter taxes withheld: \n");
     scanf("%d", &userTaxWith);
-
     // Calculate AGI, deduction, taxable income, and federal tax
     int AGI = calcAGI(userWages, userTaxableInt, userUnempComp);
     int deduction = getDeduction(userMarriage);
@@ -30,10 +29,8 @@ int main() {
     printf("Deduction: $%d\n", deduction);
     printf("Taxable Income: $%d\n", taxableIncome);
     printf("Federal Tax: $%d\n", federalTax);
-
-    // Calculate tax due or refund
+   // Calculate tax due or refund
     int taxDue = calcTaxDue(federalTax, userTaxWith);
-
     // Print out tax due or refund
     if (taxDue < 0) {
         printf("You are entitled to a refund of $%d.\n", -taxDue);
@@ -42,15 +39,12 @@ int main() {
     } else {
         printf("You have no tax due or refund.\n");
     }
-
  return  0;
  }
-
 // Function definitions
 int calcAGI(int wages, int interest, int unemployment) {
     return wages + interest + unemployment;
 }
-
 int getDeduction(int marriageStatus) {
     int deduction = 0;
     switch (marriageStatus) {
@@ -69,7 +63,6 @@ int getDeduction(int marriageStatus) {
     }
     return deduction;
 }
-
 int getTaxable(int AGI, int deduction) {
     int taxableIncome = AGI - deduction;
     if (taxableIncome < 0) {
@@ -77,14 +70,10 @@ int getTaxable(int AGI, int deduction) {
     }
     return taxableIncome;
 }
-
 int calcTax(int status, int taxableIncome)
 {
-
-
     int federalTax = 0;
-    if (status == 0 || status == 1) {
-	
+    if (status == 0 || status == 1) {	
         if (taxableIncome <= 10000) {
             federalTax = taxableIncome * 0.10;
         } else if (taxableIncome <= 40000) {
